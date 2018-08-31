@@ -1,5 +1,5 @@
 public class Dekrypt {
-    char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+    char[] alphabet = "a bcdefghijklmnopqrstuvwxyz".toCharArray();
     char dekrypt(char bogst) {
         if (bogst == alphabet[4]){ return alphabet[0];}
         if (bogst == alphabet[5]){ return alphabet[1];}
@@ -26,10 +26,11 @@ public class Dekrypt {
         if (bogst == alphabet[26]){ return alphabet[22];}
         if (bogst == alphabet[27]){ return alphabet[23];}
         if (bogst == alphabet[28]){ return alphabet[24];}
-        if (bogst == alphabet[0]){ return alphabet[25];}
-        if (bogst == alphabet[1]){ return alphabet[26];}
-        if (bogst == alphabet[2]){ return alphabet[27];}
-        if (bogst == alphabet[3]){ return alphabet[28];}
+        if (bogst == alphabet[29]){ return alphabet[25];}
+        if (bogst == alphabet[0]){ return alphabet[26];}
+        if (bogst == alphabet[1]){ return alphabet[27];}
+        if (bogst == alphabet[2]){ return alphabet[28];}
+        if (bogst == alphabet[3]){ return alphabet[29];}
 
         else {return 'a';}
     }

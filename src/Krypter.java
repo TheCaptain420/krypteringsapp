@@ -1,5 +1,5 @@
 public class Krypter {
-    char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+    char[] alphabet = "a bcdefghijklmnopqrstuvwxyz".toCharArray();
      char krypt(char bogst){
          if (bogst == alphabet[0]){ return alphabet[4];}
          if (bogst == alphabet[1]){ return alphabet[5];}
@@ -26,10 +26,11 @@ public class Krypter {
          if (bogst == alphabet[22]){ return alphabet[26];}
          if (bogst == alphabet[23]){ return alphabet[27];}
          if (bogst == alphabet[24]){ return alphabet[28];}
-         if (bogst == alphabet[25]){ return alphabet[0];}
-         if (bogst == alphabet[26]){ return alphabet[1];}
-         if (bogst == alphabet[27]){ return alphabet[2];}
-         if (bogst == alphabet[28]){ return alphabet[3];}
+         if (bogst == alphabet[25]){ return alphabet[29];}
+         if (bogst == alphabet[26]){ return alphabet[0];}
+         if (bogst == alphabet[27]){ return alphabet[1];}
+         if (bogst == alphabet[28]){ return alphabet[2];}
+         if (bogst == alphabet[29]){ return alphabet[3];}
          else{
              return 'a';
          }
