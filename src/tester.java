@@ -7,7 +7,7 @@ public class tester {
             if(yeet>28){
                 yeet = yeet-29;
             }
-            String message = "if (bogst == alphabet["+count+"]){"+" return "+"alphabet["+yeet+"];}";
+            String message = "if (bogst == alphabet["+yeet+"]){"+" return "+"alphabet["+count+"];}";
             System.out.println(message);
 
             count++;
